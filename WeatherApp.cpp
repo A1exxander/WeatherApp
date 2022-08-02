@@ -239,8 +239,7 @@ public:
 
 int main() {
 
-    WeatherApp w;
-    
+    WeatherApp w;    
     bool repeat{ true };
 
     while (repeat) {
@@ -248,16 +247,12 @@ int main() {
         switch (w.menu()) {
         
         case 1: 
-
             w.populateCityInfo();
             w.printCityData();
             break;
-
-        case 2: 
-
+        default: 
             repeat = false;
-    
-        }
+            }
     
     }
 
