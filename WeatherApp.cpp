@@ -27,7 +27,7 @@ private:
         std::string cityName;
         int temperature;
 
-    }; // Probably better to make cityData & temp into a seperate class and just create an instance here
+    }; // Probably better to make cityData & temp into a seperate class and just create a composite instance here
 
     CityData cityData;
 
